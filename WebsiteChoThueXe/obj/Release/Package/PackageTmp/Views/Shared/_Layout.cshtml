@@ -1,0 +1,109 @@
+﻿@using WebsiteChoThueXe.Models
+@{ 
+    WebChoThueXeEntities db = new WebChoThueXeEntities();
+    var hx = db.HangXe;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Styleheader.css" rel="stylesheet" />
+    <link href="~/Content/css/StyleThongTinWeb.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-left">
+                <li><a href="@Url.Action("Index","TrangChu")" style=" color :black">CiaCar</a></li>
+            </div>
+            <div class="header-center">
+                <ul class="root">
+                    <li><a href="@Url.Action("Index","TrangChu")">Trang Chủ</a></li>
+                    <li>
+                        <a href="@Url.Action("Index","Xe")">Đặt Xe</a>
+                        <ul class="submenu">
+                            @foreach (var item in hx)
+                            {
+                                <li><a href="@Url.Action("Index","Xe", new {TenHang = item.MaHang})">@item.TenHang </a></li>
+                            }
+
+
+                        </ul>
+                    </li>
+                    <li><a href="@Url.Action("Index","ThongTinWeb")">Thông Tin</a></li>
+
+
+                </ul>
+            </div>
+            <div class="header-right">
+                <ul class="root">
+                    <li><a href="@Url.Action("Index","GioHang")">Giỏ Hàng</a></li>
+                    @if (Session["TaiKhoan"] == null)
+                    {
+                        <li><a href="@Url.Action("DangNhap","TaiKhoan")">Đăng Nhập</a></li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="@Url.Action("Index","Xe")">@Session["TenKhachHang"]</a>
+                            <ul class="submenu">
+                                <li><a href="@Url.Action("DangXuat","TaiKhoan")">Thông Tin Cá Nhân</a></li>
+                                <li><a href="@Url.Action("LichSuDatXe","ThongTin")">Lịch Xe Đã Đặt</a></li>
+                                <li><a href="@Url.Action("DangXuat","TaiKhoan")">Đăng Xuất</a></li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        @RenderBody()
+    </div>
+    <div style="clear:both"></div>
+    <div class="footer" style="margin-top:500px">
+        <div class="small-container">
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="~/Content/images/play-store.png">
+                        <img src="~/Content/images/app-store.png">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <h1 style="margin-bottom:10px">CiaCar</h1>
+                    <p>Đồ Án Quản Lý Cho Thuê Xe Tự Lái.</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Liên Kết</h3>
+                    <ul>
+                        <li><a href="@Url.Action("Index","TrangChu")">Trang Chủ</a></li>
+                        <li><a href="@Url.Action("Index","Xe")">Đặt Xe</a></li>
+                        <li><a href="@Url.Action("Index","ThongTinWeb")">Thông Tin</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Theo Dõi</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Youtube</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2022 - CIA Team</p>
+        </div>
+    </div>
+</body>
+</html>

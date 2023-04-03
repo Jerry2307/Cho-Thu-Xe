@@ -1,0 +1,49 @@
+﻿@model IEnumerable<WebsiteChoThueXe.Models.HoaDon>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+    <link href="~/Areas/Admin/Content/CSS/Styletable.css" rel="stylesheet" />
+}
+
+<h2>Danh sách hóa đơn</h2>
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>
+                Mã Hợp Đồng
+            </th>
+            <th>
+                Tổng Tiền
+            </th>
+            <th>
+                "Ngày Lập
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HopDong.MaHopDong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TongTien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayLap)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Chi Tiết", "Details", new { id = item.SoHoaDon }, new { @class = "btn btn-danger btn-sm " })
+
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,166 @@
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebsiteChoThueXe.dll.config
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebsiteChoThueXe.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebsiteChoThueXe.pdb
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csc.exe
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csc.exe.config
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csc.rsp
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csi.exe
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csi.exe.config
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csi.rsp
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.AppContext.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Console.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.Compression.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Net.Http.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Net.Sockets.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.ValueTuple.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\vbc.exe
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\vbc.exe.config
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\vbc.rsp
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\VBCSCompiler.exe
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\Antlr3.Runtime.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\Newtonsoft.Json.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Helpers.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Mvc.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Optimization.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Razor.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Razor.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebGrease.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Helpers.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Mvc.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Optimization.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Razor.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Razor.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\Newtonsoft.Json.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\Antlr3.Runtime.pdb
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.csproj.AssemblyReference.cache
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.csproj.CoreCompileInputs.cache
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.csproj.CopyComplete
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.pdb
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.xml
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.SqlServer.dll
+C:\Users\win10\OneDrive\Máy tính\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.SqlServer.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebsiteChoThueXe.dll.config
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebsiteChoThueXe.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebsiteChoThueXe.pdb
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csc.exe
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csc.exe.config
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csc.rsp
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csi.exe
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csi.exe.config
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\csi.rsp
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.AppContext.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Collections.Immutable.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Console.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Globalization.Calendars.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.Compression.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.FileSystem.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Net.Http.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Net.Sockets.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Reflection.Metadata.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.ValueTuple.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.XPath.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\vbc.exe
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\vbc.exe.config
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\vbc.rsp
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\VBCSCompiler.exe
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\roslyn\VBCSCompiler.exe.config
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\Antlr3.Runtime.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.SqlServer.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\Newtonsoft.Json.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Helpers.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Mvc.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Optimization.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Razor.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Deployment.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Razor.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\WebGrease.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\EntityFramework.SqlServer.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Helpers.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Mvc.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Optimization.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.Razor.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Deployment.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\System.Web.WebPages.Razor.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\Newtonsoft.Json.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\Antlr3.Runtime.pdb
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.csproj.AssemblyReference.cache
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.csproj.CoreCompileInputs.cache
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.csproj.CopyComplete
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.dll
+D:\Downloads\WebsiteChoThueXe\WebsiteChoThueXe\WebsiteChoThueXe\obj\Debug\WebsiteChoThueXe.pdb

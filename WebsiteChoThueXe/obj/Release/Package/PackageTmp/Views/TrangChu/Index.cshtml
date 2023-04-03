@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/css/StyleTrangChu.css" rel="stylesheet" />
+}
+<div class="hero">
+    <div class="row">
+        <div class="left-sec">
+            <div class="content">
+                <h2><span>Cia Car</span></h2>
+                <p>
+                    Chào mừng bạn đến với dịch vụ cho thuê xe tự lái của công ty CIA.
+                    Ở đây chuyên cho thuê xe từ 4 đến 16 chỗ, từ hạng sang đến hạng phổ thông.
+                    Công ty sẽ phục vụ tận tâm để cho bạn có những trải nghiệm tuyệt vời nhất sau mỗi hành trình.
+                </p>
+            </div>
+            <button class="discover-btn">
+                <a href="@Url.Action("Index","Xe")">Đặt Xe Ngay</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+            </button>
+        </div>
+        <div class="right-sec">
+            <div class="my-car">
+                <div><img src="~/Content/Images/bmwi8.png"></div>
+            </div>
+        </div>
+    </div>
+</div>

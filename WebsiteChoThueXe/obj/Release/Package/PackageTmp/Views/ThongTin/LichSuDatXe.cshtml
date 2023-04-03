@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebsiteChoThueXe.Models.ChiTietHopDong>
+
+@{
+    ViewBag.Title = "LichSuDatXe";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>LichSuDatXe</h2>
+<div class="small-container cart-page">
+    <table>
+        <tbody>
+            <tr>
+                <th>Xe</th>
+                <th>Ngày bắt đầu <br>Ngày kết thúc</th>
+                <th>Thành tiền</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="~/Content/images/@item.Xe.AnhXe">
+                            <div>
+                                <p>@item.Xe.TenXe</p>
+                                <small>Giá thuê: @item.Xe.GiaThue VNĐ/Ngày</small>
+                                <br>
+                            </div>
+                        </div>
+                    </td>
+                    <td>@item.NgayGiaoXe<br> @item.NgayTraXe</td>
+                    <td>@item.ThanhTien VNĐ</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

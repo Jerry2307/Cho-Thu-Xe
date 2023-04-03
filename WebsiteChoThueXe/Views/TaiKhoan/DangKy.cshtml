@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="content">
+    <h2>Tạo Tài Khoản</h2>
+    <form action="TaoTaiKhoan">
+        <div class="box">
+
+            <div class="title">Đăng Nhập</div>
+
+            <div class="input">
+                <h4>Tài Khoản</h4>
+                <br />
+                <input style="font-size:19px" type="text" name="TaiKhoan" id="name">
+                <span class="spin"></span>
+                <p style="font-size:15px; color: red">@Session["loi1"]</p>
+            </div>
+
+            <div class="input">
+                <h4>Mật Khẩu</h4>
+                <br />
+                <input style="font-size:19px" type="password" name="MatKhau" id="pass">
+                <span class="spin"></span>
+            </div>
+            <div class="input">
+                <h4>Email</h4>
+                <br />
+                <input style="font-size:19px" type="email" name="Email" id="Email">
+                <span class="spin"></span>
+            </div>
+            <div class="input">
+                <h4>Họ Tên</h4>
+                <br />
+                <input style="font-size:19px" type="text" name="HoTen" id="HoTen">
+                <span class="spin"></span>
+            </div>
+            <div class="input">
+                <h4>Địa Chỉ</h4>
+                <br />
+                <input style="font-size:19px" type="text" name="DiaChi" id="DiaChi">
+                <span class="spin"></span>
+            </div>
+            <div class="input">
+                <h4>CCCD</h4>
+                <br />
+                <input style="font-size:19px" type="text" name="CCCD" id="CCCD">
+                <span class="spin"></span>
+            </div>
+            <div class="input">
+                <h4>Số Bằng Lái</h4>
+                <br />
+                <input style="font-size:19px" type="text" name="SoBangLai" id="SoBangLai">
+                <span class="spin"></span>
+            </div>
+            <div class="input">
+                <h4>Số Điện Thoại</h4>
+                <br />
+                <input style="font-size:19px" type="text" name="SoDienThoai" id="SoDienThoai">
+                <span class="spin"></span>
+            </div>
+            <div class="button login">
+                <input style="font-size:25px" type="submit" value="Đăng Ký" />
+            </div>
+
+
+            <a href="" class="pass-forgot">Đăng Nhập</a>
+
+        </div>
+    </form>
+
+</div>
+
+

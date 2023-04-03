@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    <link href="~/Content/css/StyleGioHang.css" rel="stylesheet" />
+}
+
+@if (Model == null)
+{
+    <p class="text-info text-center ">
+        chưa có sản phẩm trong giỏ hàng
+    </p>
+}
+else
+{
+    <form action="GioHang/ThanhToan">
+        <div class="small-container cart-page">
+            <table style=" width: 70%; border-collapse: collapse; float: left">
+
+                <div class="clear"></div>
+                <tbody>
+                    <tr>
+                        <td style="font-size:20px; font-weight:bold">Thông Tin Xe</td>
+                    </tr>
+                    <tr>
+                        <th>Xe</th>
+                        <th>Ngày Bắt Đầu <br />  Ngày Kết Thúc</th>
+                        <th>Số Ngày </th>
+                        <th>Thành Tiền</th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <div class="cart-info">
+                                    <img style="width:200px;height:auto" src="~/Content/Images/@item.AnhXe">
+                                    <div>
+                                        <p>@item.TenXe</p>
+                                        <small>Giá thuê: @String.Format("{0:0,0}", item.DonGia) VNĐ/Ngày</small>
+                                        <br>
+                                        <a href="@Url.Action("XoaGioHang", new { MaXe = item.MaXe })" onclick="return confirm('Xóa Sản phẩm này?');">Xóa</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>@item.NgayBatDau.ToShortDateString() <br /> @item.NgayKetThuc.ToShortDateString()</td>
+                            <td>@item.SoNgay</td>
+                            <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div style="width:28%; float:left; margin-left:20px">
+
+
+                <table style="width:100%">
+                    <tboy>
+                        <tr>
+                            <td style="font-size:20px; font-weight:bold">Thanh Toán</td>
+                        </tr>
+                        @if (Session["TaiKhoan"] != null)
+                        {
+                            <tr>
+                                <td>Tên Khách Hàng</td>
+                                <td>@Session["TenKhachHang"].ToString()   </td>
+                            </tr>
+                            <tr>
+                                <td>Địa Chỉ Giao Xe</td>
+                                <td>@Session["DiaChi"].ToString()   </td>
+                            </tr>
+                        }
+
+                        <tr>
+                            <td>Ngày Giao</td>
+                            <td>
+                                @foreach (var item in Model)
+                                {
+                                    @item.NgayBatDau.ToShortDateString()<br />
+                                }
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Phương Thức Thanh Toán</td>
+                            <td>
+                                <table style="width:100%">
+                                    <tr>
+                                        <td>
+                                            <label for="thanhtoan1">Tiền Mặt</label><br>
+                                        </td>
+                                        <td>
+                                            <input style="width: 15px; height: 20px" type="radio" id="thanhtoan1" name="thanhtoan" value="0">
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="thanhtoan2">Ví Momo</label><br>
+                                        </td>
+                                        <td>
+                                            <input style="width:15px;height:20px" type="radio" id="thanhtoan2" name="thanhtoan" value="1">
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="thanhtoan3">Ví VNPAY</label><br>
+                                        </td>
+                                        <td>
+                                            <input style="width: 15px; height: 20px" type="radio" id="thanhtoan3" name="thanhtoan" value="2">
+                                        </td>
+
+                                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tổng Tiền</td>
+                            <td>
+                                @String.Format("{0:0,0}", ViewBag.TongTien) VNĐ
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </tboy>
+                </table>
+            </div>
+            <div class="">
+                <input style="float: right; width: 120px; margin-right: 50px" class="btn btn-danger btn-sm" type="submit" value="Thanh Toán" />
+            </div>
+        </div>
+    </form>
+}

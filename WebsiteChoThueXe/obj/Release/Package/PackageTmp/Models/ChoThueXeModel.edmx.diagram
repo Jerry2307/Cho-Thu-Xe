@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f1c436751854c6da0ad9a74192d773f" Name="Diagram1">
+        <EntityTypeShape EntityType="WebChoThueXeModel.ChiTietHopDong" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.ChiTietPhieuDenBu" Width="1.5" PointX="12" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.ChiTietThanhToan" Width="1.5" PointX="9.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.HangXe" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.HoaDon" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.HopDong" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.KhachHang" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.NhaCungCap" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.PhieuDenBu" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.PhuongThucThanhToan" Width="1.5" PointX="7.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebChoThueXeModel.Xe" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__ChiTietHo__MaHop__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__ChiTietHop__MaXe__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__PhieuDenBu__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__ChiTietPh__SoHoa__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__ChiTietPh__SoPhi__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__ChiTietTh__MaTha__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__ChiTietTh__SoHoa__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__Xe__MaHang__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__HoaDon__MaHopDon__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__HopDong__MaKhach__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__KhachHang__MaTai__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__NhaCungCa__MaTai__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="WebChoThueXeModel.FK__Xe__MaNhaCungCap__3C69FB99" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

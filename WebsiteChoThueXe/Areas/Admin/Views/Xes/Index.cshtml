@@ -1,0 +1,75 @@
+﻿@model IEnumerable<WebsiteChoThueXe.Models.Xe>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+    <link href="~/Areas/Admin/Content/CSS/Styletable.css" rel="stylesheet" />
+}
+
+<p>
+    @Html.ActionLink("Thêm Xe", "Create", "XeAdmin", new { @class = "btn btn-danger btn" })
+</p>
+<h2>Danh sách xe</h2>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Tên Xe")
+            </th>
+            <th>
+                @Html.DisplayName("Số Chỗ Ngồi")
+            </th>
+            <th>
+                @Html.DisplayName("Giá Thuê")
+            </th>
+            <th>
+                @Html.DisplayName("Ảnh Xe")
+            </th>
+            <th>
+                @Html.DisplayName("Tình Trạng")
+            </th>
+
+            <th>
+                @Html.DisplayName("Số Lần Thuê")
+            </th>
+            <th>
+                @Html.DisplayName("Tên Hãng")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenXe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoChoNgoi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaThue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AnhXe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TinhTrang)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLanThue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HangXe.TenHang)
+                </td>
+                <td>
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.MaXe }, new { @class = "btn btn-danger btn-sm " }) |
+                    @Html.ActionLink("Chi Tiết", "Details", new { id = item.MaXe }, new { @class = "btn btn-danger btn-sm " }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.MaXe }, new { @class = "btn btn-danger btn-sm " })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

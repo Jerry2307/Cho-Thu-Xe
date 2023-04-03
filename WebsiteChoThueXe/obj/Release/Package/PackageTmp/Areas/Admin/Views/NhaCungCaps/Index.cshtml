@@ -1,0 +1,63 @@
+﻿@model IEnumerable<WebsiteChoThueXe.Models.NhaCungCap>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+    <link href="~/Areas/Admin/Content/CSS/Styletable.css" rel="stylesheet" />
+    @Styles.Render("~/Content/CSS")
+    @Scripts.Render("~/bundles/modernizr")
+}
+
+<h2>Danh sách Nhà Cung Cấp</h2>
+<p>
+    @Html.ActionLink("Thêm Nhà Cung Cấp", "Create", "NhaCungCaps", new { @class = "btn btn-danger btn-sm " })
+</p>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Tên Nhà Cung Cấp")
+            </th>
+            <th>
+                @Html.DisplayName("Địa Chỉ")
+            </th>
+            <th>
+                @Html.DisplayName("CCCD")
+            </th>
+            <th>
+                @Html.DisplayName("Số Điện Thoại")
+            </th>
+            <th>
+                @Html.DisplayName("Ngày Sinh")
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenNhaCungCap)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CCCD)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoDienThoai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgaySinh)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Chi Tiết", "Details", new { id = item.MaNhaCungCap }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

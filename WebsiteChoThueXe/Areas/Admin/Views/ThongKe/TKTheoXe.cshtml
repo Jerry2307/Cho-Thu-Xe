@@ -1,0 +1,73 @@
+﻿@model IEnumerable<WebsiteChoThueXe.Models.Xe>
+@using WebsiteChoThueXe.Models
+@{
+    ViewBag.Title = "TKTheoXe";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+    <link href="~/Areas/Admin/Content/CSS/Styletable.css" rel="stylesheet" />
+}
+
+@{
+    WebChoThueXeEntities db = new WebChoThueXeEntities();
+    var xe = new List<TKXe>();
+    List<ChiTietHopDong> cthd = db.ChiTietHopDong.ToList();
+    foreach (var item in Model)
+    {
+        int dem = 0;
+        double TongTien = 0.0;
+        foreach (var hd in cthd)
+        {
+            if (hd.MaXe == item.MaXe)
+            {
+                dem++;
+                TongTien = TongTien + hd.ThanhTien;
+            }
+        }
+        TKXe ds = new TKXe();
+        ds.TenXe = item.TenXe;
+        ds.SoLanThue = dem;
+        ds.TongTien = TongTien;
+        xe.Add(ds);
+
+
+    }
+    List<TKXe> ketthuc = xe.OrderByDescending(p => p.TongTien).ToList();
+}
+
+
+<h2>Danh sách doanh thu theo xe được thuê nhiều  </h2>
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Tên Xe")
+            </th>
+            <th>
+                @Html.DisplayName("Số Lần Thuê")
+            </th>
+            <th>
+                @Html.DisplayName("Tổng Tiền ")
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ketthuc)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenXe)
+                </td>
+
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoLanThue)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.TongTien)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

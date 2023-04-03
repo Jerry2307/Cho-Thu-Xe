@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng Nhập admin</title>
+    <link href="~/Content/css/DangNhapAdmin.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="text-center mt-4 name">
+            Cia Car
+        </div>
+        <form class="p-3 mt-3" action="~/Admin/DangNhap/KiemTra">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="TaiKhoan" id="TaiKhoan" placeholder="Tài Khoản">
+
+            </div>
+            <p style="color:red">@Session["loi1"]</p>
+
+            <br />
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="MatKhau" id="MatKhau" placeholder="Mật Khẩu">
+
+            </div>
+            <p style="color:red; font-size:11"> @Session["loi2"]</p>
+            <br />
+            <input class="btn mt-3" type="submit" value="Đăng Nhập" />
+        </form>
+        <br />
+        <div class="text-center fs-6">
+            <p style="color:red"> @Session["ThongBao"]</p>
+</div>
+    </div>
+
+
+</body>
+</html>
+
+

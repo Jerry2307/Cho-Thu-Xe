@@ -1,0 +1,51 @@
+﻿@model IEnumerable<WebsiteChoThueXe.Models.ChiTietHopDong>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layoutadmin.cshtml";
+    <link href="~/Areas/Admin/Content/CSS/Styletable.css" rel="stylesheet" />
+}
+
+
+<h2>Danh sách Lịch Giao Xe</h2>
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Tên Xe")
+            </th>
+            <th>
+                @Html.DisplayName("Ngày Giao")
+            </th>
+            <th>
+                @Html.DisplayName("Tên Khách Hàng")
+            </th>
+            <th>
+                @Html.DisplayName("Địa Chỉ")
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Xe.TenXe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayGiaoXe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HopDong.KhachHang.TenKhachHang)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HopDong.KhachHang.DiaChi)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+

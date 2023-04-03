@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng Nhập</title>
+    <link href="~/Content/css/StyleDangNhap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="materialContainer">
+
+        <form action="KiemTra">
+            <div class="box">
+
+                <div class="title">Đăng Nhập</div>
+
+                <div class="input">
+                    <h4>Tài Khoản</h4>
+                    <br />
+                    <input style="font-size:19px" type="text" name="TaiKhoan" id="name">
+                    <span class="spin"></span>
+                    <p style="font-size:15px; color: red">@Session["loi1"]</p>
+                </div>
+
+                <div class="input">
+                    <h4>Mật Khẩu</h4>
+                    <br />
+                    <input style="font-size:19px" type="password" name="MatKhau" id="pass">
+                    <span class="spin"></span>
+                    <p style="font-size:15px; color: red">@Session["loi2"]</p>
+                </div>
+
+                <div class="button login">
+                    <input style="font-size:25px" type="submit" value="Đăng Nhập" />
+                </div>
+                <div style="padding:25px"> Chưa có tài khoản thì:<a href=""> Tạo Ngay</a></div>
+               
+                <a href="" class="pass-forgot">Quên Mật Khẩu</a>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

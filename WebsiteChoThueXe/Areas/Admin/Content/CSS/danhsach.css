@@ -1,0 +1,16 @@
+﻿
+.btn {
+    padding: 20px;
+    width: 40%;
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+    transition: background 0.5;
+}
+
+    .btn:hover {
+        background: #563434;
+    }

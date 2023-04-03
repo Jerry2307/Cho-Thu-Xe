@@ -1,0 +1,103 @@
+﻿@model IEnumerable<WebsiteChoThueXe.Models.Xe>
+@using WebsiteChoThueXe.Models
+@{
+    ViewBag.Title = "Xe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Content/css/Styleiteam.css" rel="stylesheet" />
+    <link href="~/Content/css/StyleXe.css" rel="stylesheet" />
+}
+@{
+    WebChoThueXeEntities db = new WebChoThueXeEntities();
+    var hx = db.HangXe;
+    var scn = db.Xe.GroupBy(p => p.SoChoNgoi);
+    var nsx = db.Xe.GroupBy(p => p.NamSanXuat);
+}
+
+    <div class="content-left">
+        <form action="/Xe/Index">
+            <div class="hang">
+                <h3>Hãng Xe </h3>
+                @foreach (var i in hx)
+                {
+                    <input type="radio" id="@i.TenHang" name="TenHang" value="@i.MaHang" />
+                    <label for="@i.TenHang" style="margin-right:20px">@i.TenHang</label>
+                    <br />
+                }
+            </div>
+            <div class="SoChoNgoi">
+                <h3>Số Chỗ Ngồi </h3>
+                @foreach (var i in scn)
+                {
+                    <input type="radio" id="@i.Key" name="SoChoNgoi" value="@i.Key" />
+                    <label for="@i.Key" style="margin-right:20px">@i.Key</label>
+                    <br />
+                }
+            </div>
+            <div class="SoChoNgoi">
+                <h3> Năm Sản Xuất </h3>
+                @foreach (var i in nsx)
+                {
+                    <input type="radio" id="@i.Key" name="NamSanXuat" value="@i.Key" />
+                    <label for="@i.Key" style="margin-right:20px">@i.Key</label>
+                    <br />
+                }
+            </div>
+            <div class="Gia">
+                <h3>Giá</h3>
+
+                <h5>Từ</h5>
+                <input type="text" id="Giathap" name="GiaBD" value="@String.Format("{0:0,0}","")" style="width:150px; height:30px ; float:left" />
+                <br /><br />
+
+                <h5>Đến</h5>
+                <input type="number" id="Giacao" name="GiaKT" value="" style="width: 150px; height: 30px; float: left" />
+                <br />
+                <br />
+            </div>
+            <button type="submit" style="width:150px; height:30px; font-size:18px">Lọc Nhanh</button>
+        </form>
+    </div>
+    <div class="content-right">
+        <div class="content-top">
+            <form action="">
+                <input type="text" placeholder="Tìm kiếm.." name="search">
+                <button type="submit">Tìm Kiếm</button>
+            </form>
+
+            <div class="content-boot">
+                <h2>Danh sách Sản phẩm</h2>
+
+                <div class="row">
+                    <div class="card-list">
+                        @foreach (var item in Model)
+                        {
+                            <div class="card">
+                                <img src="~/Content/Images/@item.AnhXe" alt="" class="card-image">
+                                <div class="card-content">
+                                    <div class="card-top">
+                                        <h3 class="card-title">@item.TenXe</h3>
+                                    </div>
+                                    <div class="card-middle">
+                                        <h4 class="card-price">Giá thuê:@String.Format("{0:0,0}", item.GiaThue)  VNĐ/Ngày</h4>
+                                        <h4 class="card-bienso">Biển số xe: @item.BienSoXe</h4>
+                                        <h4 class="card-solanthue">Số lần thuê: @item.SoLanThue</h4>
+
+                                        @if (@item.TinhTrang == 0)
+                                        {<h4 class="card-status">Tình trạng xe: Đang rảnh </h4>}
+                                    </div>
+                                    <div class="card-bottom">
+                                        <a class="btn btn-chitiet" style="width:100%;margin:0px" href="@Url.Action("Details","Xe", new {id=item.MaXe})">
+                                            Chi Tiết
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
